@@ -2,6 +2,8 @@ html {
 	background-color: #8f8370;
 	font-family: Arial, sans-serif;
 	font-style: normal;
+	text-align: left;
+	font-size: 0.5rem;
 }
 
 h1 {
@@ -21,4 +23,27 @@ ul, dl {
 	list-style-type: none;
 	padding: 0;
 	line-height: 2;
+}
+
+a {
+	color: #470e0e;
+}
+
+a:hover {
+	color:red;
+}
+
+blockquote {
+	font-size:2rem;
+	font-style: italic;
+	font-family: "Times New Roman";
+	text-align: center;
+}
+
+cite {
+text-align: right;
+}
+
+.planets {
+	list-style-type: lower-roman;
 }
