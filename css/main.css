@@ -19,10 +19,17 @@ h2 {
 	color: #333;
 }
 
+h3 {
+	font-weight: bold;
+	font-size: 2rem;
+	line-height: 1.5;
+	color: #333;
+}
+
 ul, dl {
 	list-style-type: none;
-	padding: 0;
 	line-height: 2;
+	padding: 0;
 }
 
 a {
@@ -37,13 +44,41 @@ blockquote {
 	font-size:2rem;
 	font-style: italic;
 	font-family: "Times New Roman";
-	text-align: center;
 }
 
-cite {
-text-align: right;
+.cite {
+text-align: center;
+	color: #ccc;
 }
 
-.planets {
+li {
+	list-style-type: none;
+}
+
+.emphasis {
+	color: #555;
+}
+
+dt {
+	font-weight: bold;
+}
+
+figcaption {
+	font-size: 0.3rem;
+}
+
+li {
+	list-style-position: inside;
 	list-style-type: lower-roman;
 }
+
+.quotation:before{
+content: "\201C";
+color: #555;
+}
+
+.quotation:after{
+content: "\201D";
+color: #555;
+}
+
