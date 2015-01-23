@@ -16,3 +16,9 @@ h2 {
 	line-height: 1.5;
 	color: #333;
 }
+
+ul, dl {
+	list-style-type: none;
+	padding: 0;
+	line-height: 2;
+}
